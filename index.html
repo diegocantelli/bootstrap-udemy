@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Testes bootstra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <style>
+
+        body{
+            background-color: blueviolet;
+        }
+        .row, html, body, .container{
+            height:100%;
+        }
+
+        #formLogin Button{
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        #formLogin input{
+            margin-bottom: 5px;
+        }
+
+        #formLogin h1{
+            text-align: center;
+        }
+
+        .login{
+            width:350px;
+            padding-bottom: 20px;
+            background-color:rgba(82, 99, 122, 0.5);
+            border-radius: 20px;
+        }
+
+        a{
+            color:black;
+        }
+        a:hover{
+            color: black;
+            
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container d-flex align-items-center justify-content-center">
+        <div class="login form-group d-flex align-items-center justify-content-center">
+            <div class="row">
+                <form id="formLogin">
+                    <h1>Login</h1>
+                    <input type="text" class="form-control" ID="txtLogin" placeholder="Informe seu login" />
+                    <input type="password" class="form-control" ID="txtSenha" placeholder="Informe sua senha" />
+                    <a href="">Esqueceu sua senha ? Clique aqui</a>
+                    <Button ID ="btnLogin" class="btn btn-primary" Text="Logar">Logar</Button>
+                </form>
+            </div>
+        </div>        
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

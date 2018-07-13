@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Testes bootstra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.min.css" />
+    <style>
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col-12">
+            <div class="row">
+                <p>
+                    <a href="#item-colapso1" class="btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="#item-colapso1">Link</a>
+                    <button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#item-colapso1">Botao</button>
+                </p>
+                <div class="collapse" id="item-colapso1">
+                    <div class="card card-body">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Facilis nisi quo impedit neque aspernatur minus eius doloribus praesentium amet eum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div id="accordion" role="tablist">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="header1">
+                                <h5 class="mb-0">
+                                    <a href="#colapso1" data-toggle="collapse" aria-expanded="false">Link para colapso 1</a>
+                                </h5>
+                            </div>
+                            <div id="colapso1" class="collapse show" role="tabpanel" aria-labelledby="header1" data-parent="#accordion">
+                                <div class="card-body">
+                                    <h5>Item colapso 1</h5>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Accusantium tempora magni expedita beatae odit harum est et eveniet aspernatur doloremque!
+                                </div>
+                            </div>
+                            <div class="card-header" role="tab" id="header2">
+                                    <h5 class="mb-0">
+                                        <a href="#colapso2" data-toggle="collapse" aria-expanded="false">Link para colapso 1</a>
+                                    </h5>
+                                </div>
+                                <div id="colapso2" class="collapse" role="tabpanel" aria-labelledby="header2" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <h5>Item colapso 2</h5>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Accusantium tempora magni expedita beatae odit harum est et eveniet aspernatur doloremque!
+                                    </div>
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>
